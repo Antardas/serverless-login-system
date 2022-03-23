@@ -1,13 +1,59 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+input:focus {
+  border: none;
+}
+input:active{
+  border: none;
+}
+input{
+  border: none;
+  font-size: 18px;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.login-image {
+  width: 500px;
+}
+.login-text {
+  color: rgb(77, 77, 224);
+}
+.nav-bar {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  box-shadow: 10px;
+}
+.nav-bar div button {
+  font: 18px;
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid rgb(95, 95, 235);
+  background: none;
+  border-radius: 0.2rem;
+}
+.input-box {
+  width: 500px;
+  height: 40px;
+  border: 1px solid rgb(95, 95, 235);
+}
+.input-box:focus {
+  border: none;
+}
+.submit-btn {
+  background: rgb(96, 96, 236);
+  padding: 12px;
+  margin-left: 10px;
+  color: aliceblue;
+}
+
