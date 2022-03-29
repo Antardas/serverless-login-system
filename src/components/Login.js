@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {useState } from "react";
 import logIn from "../images/login-image.jpg";
 
 const Login = () => {
