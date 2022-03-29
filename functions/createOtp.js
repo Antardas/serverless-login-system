@@ -35,7 +35,7 @@ exports.handler = async (event, context) => {
     const key = randomOTP();
     const hashedKey = await hash(key);
     const messageId = await sendOTP(email, key);
-    console.log(messageId);
+    console.log(messageId);                                                                                                                                                                                                                                                          
     if (messageId && hashedKey) {
       return {
         statusCode: 200,

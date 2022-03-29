@@ -19,7 +19,7 @@ const Login = () => {
   };
 
   const createOTP = (e) => {
-    fetch(`/api/createOtp?email=${inputValue.email}`, {
+    fetch(`https://glistening-belekoy-1caf0a.netlify.app/.netlify/functions/createOtp?email=${inputValue.email}`, {
       // `http://localhost:4000/createOtp/${inputValue.email}`
       method: "GET",
       credentials: "same-origin",
